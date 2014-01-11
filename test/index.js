@@ -1,6 +1,5 @@
 var assert = require('assert');
 var create = require('../index_browser');
-var deepEqual = require('deep-equal');
 
 
 describe('created child object', function() {
@@ -21,6 +20,7 @@ describe('created child object', function() {
 
 
   it('should contain defined properties', function() {
-    deepEqual({ foo: 3, bar: 4 }, child);
+    assert.equal(3, child.foo);
+    assert.equal(4, child.bar);
   });
 });
