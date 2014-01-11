@@ -1,7 +1,7 @@
 {
   "name": "object-create",
   "description": "Object.create replacement compatible with old browsers. Extracted from https://github.com/kriskowal/es5-shim",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/tarruda/object-create",
   "author": {
     "name": "Thiago de Arruda",
